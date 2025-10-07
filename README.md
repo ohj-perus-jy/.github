@@ -1,1 +1,0 @@
-Ohjelmoinnin perusopetus Jyväskylän yliopistossa
