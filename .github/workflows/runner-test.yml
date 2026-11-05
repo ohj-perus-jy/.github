@@ -2,7 +2,7 @@ name: runner-test
 on: workflow_dispatch
 jobs:
   hello:
-    runs-on: jyu-vps
+    runs-on: vellu2-vps
     steps:
       - run: |
           hostname
