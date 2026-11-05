@@ -1,0 +1,11 @@
+name: runner-test
+on: workflow_dispatch
+jobs:
+  hello:
+    runs-on: jyu-vps
+    steps:
+      - run: |
+          hostname
+          nproc
+          free -h
+          cat /etc/os-release | head -2
